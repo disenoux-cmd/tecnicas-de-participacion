@@ -1,0 +1,5 @@
+# Dinamizar la palabra
+
+Recurso educativo digital interactivo sobre Tiempo de Espera, Llamada en Frio y Preguntas Boomerang para promover participacion equitativa en el aula.
+
+- [Abrir el recurso](./)

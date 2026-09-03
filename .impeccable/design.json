@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-02T23:21:42.5065157-05:00",
+  "title": "Design System: Técnicas de Participación",
+  "extensions": {
+    "colorMeta": {
+      "deep-ink": { "role": "primary", "displayName": "Tinta profunda", "canonical": "#102f4d", "tonalRamp": ["#071722", "#0b2438", "#102f4d", "#244963", "#49677d", "#7890a1", "#b3c1ca", "#eef3f5"] },
+      "soft-ink": { "role": "neutral", "displayName": "Tinta suave", "canonical": "#35536b", "tonalRamp": ["#13202a", "#243947", "#35536b", "#536f84", "#758da0", "#9cabb7", "#c8d1d8", "#f0f3f5"] },
+      "cool-paper": { "role": "neutral", "displayName": "Papel frío", "canonical": "#fcfdfb", "tonalRamp": ["#252722", "#494c45", "#70746c", "#989c94", "#bdc1b9", "#dde0da", "#eef0eb", "#fcfdfb"] },
+      "reader-canvas": { "role": "neutral", "displayName": "Lienzo del lector", "canonical": "#e8edf0", "tonalRamp": ["#202528", "#41494e", "#657077", "#8b969d", "#adb7bd", "#cad2d7", "#e8edf0", "#f7f9fa"] },
+      "pure-white": { "role": "neutral", "displayName": "Blanco puro", "canonical": "#ffffff", "tonalRamp": ["#262626", "#4d4d4d", "#737373", "#999999", "#bfbfbf", "#d9d9d9", "#eeeeee", "#ffffff"] },
+      "direction-orange": { "role": "primary", "displayName": "Naranja de dirección", "canonical": "#e75d2f", "tonalRamp": ["#351208", "#68220f", "#9a361b", "#c94a24", "#e75d2f", "#ef8968", "#f7bba7", "#fcebe5"] },
+      "burnt-orange": { "role": "primary", "displayName": "Naranja quemado", "canonical": "#a93a18", "tonalRamp": ["#2b0c03", "#571907", "#81280e", "#a93a18", "#c85b38", "#df876b", "#efb9a6", "#faebe5"] },
+      "pulse-yellow": { "role": "secondary", "displayName": "Amarillo de pulso", "canonical": "#ffc928", "tonalRamp": ["#332600", "#674d00", "#9b7600", "#cea007", "#ffc928", "#ffd85d", "#ffe79b", "#fff6dc"] },
+      "support-blue": { "role": "secondary", "displayName": "Azul de apoyo", "canonical": "#147fa3", "tonalRamp": ["#03212c", "#06435a", "#0c6380", "#147fa3", "#3b9cba", "#72b9cf", "#add8e5", "#e6f3f7"] },
+      "rule": { "role": "neutral", "displayName": "Regla fría", "canonical": "#cbd7dc", "tonalRamp": ["#1e272b", "#3d4b51", "#607078", "#84969e", "#a5b5bc", "#cbd7dc", "#e1e8eb", "#f5f8f9"] },
+      "nav-active": { "role": "primary", "displayName": "Azul de índice activo", "canonical": "#1a4262", "tonalRamp": ["#07131d", "#0e293d", "#1a4262", "#35617f", "#5a8099", "#86a2b5", "#b9cbd6", "#edf3f6"] },
+      "information-wash": { "role": "neutral", "displayName": "Lavado informativo", "canonical": "#e6f1f4", "tonalRamp": ["#1e292c", "#3d5056", "#60777e", "#849ea6", "#abc1c7", "#cbdde1", "#e6f1f4", "#f6fafb"] },
+      "success": { "role": "tertiary", "displayName": "Verde de logro", "canonical": "#14745a", "tonalRamp": ["#031f17", "#06402f", "#0c6048", "#14745a", "#3d9278", "#75b29d", "#b0d5c8", "#e7f3ef"] },
+      "success-wash": { "role": "tertiary", "displayName": "Lavado de logro", "canonical": "#e8f5ef", "tonalRamp": ["#1f2925", "#3f5149", "#63796f", "#89a197", "#aec5bb", "#cde0d8", "#e8f5ef", "#f7fbf9"] },
+      "error": { "role": "tertiary", "displayName": "Rojo de revisión", "canonical": "#c94c36", "tonalRamp": ["#300d08", "#611b12", "#902c20", "#b93e2c", "#d26450", "#e49280", "#f0c1b6", "#f9ece8"] },
+      "error-wash": { "role": "tertiary", "displayName": "Lavado de revisión", "canonical": "#fff0eb", "tonalRamp": ["#2e211d", "#5c423a", "#88645a", "#b4887b", "#d3aca0", "#e9ccc3", "#fff0eb", "#fff9f7"] },
+      "disabled-surface": { "role": "neutral", "displayName": "Superficie deshabilitada", "canonical": "#dce3e6", "tonalRamp": ["#222729", "#454d50", "#697479", "#8f9b9f", "#b1bcbf", "#d0d8db", "#e7ecee", "#f8fafa"] },
+      "disabled-text": { "role": "neutral", "displayName": "Texto deshabilitado", "canonical": "#91a4b4", "tonalRamp": ["#182027", "#303f4a", "#4c6070", "#6d8191", "#91a4b4", "#afbdc8", "#d0d9df", "#f0f3f5"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Portada y cierre de alto impacto." },
+      "headline": { "displayName": "Headline", "purpose": "Título principal de cada hoja." },
+      "title": { "displayName": "Title", "purpose": "Apartes, escenas y bloques explicativos." },
+      "body": { "displayName": "Body", "purpose": "Lectura instruccional sostenida." },
+      "label": { "displayName": "Label", "purpose": "Navegación, secuencias y metadatos." }
+    },
+    "shadows": [
+      { "name": "sheet-ambient", "value": "0 18px 48px rgba(20, 48, 70, .15)", "purpose": "Separa la hoja del lienzo del lector." },
+      { "name": "warm-pulse", "value": "0 14px 28px rgba(169, 58, 24, .24)", "purpose": "Eleva el pulso circular de pausa." },
+      { "name": "action-hover", "value": "0 10px 22px rgba(169, 64, 30, .24)", "purpose": "Respuesta de hover de la acción primaria." }
+    ],
+    "motion": [
+      { "name": "ease-expressive", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "Entrada de hoja, pulso, feedback y transiciones de estado." },
+      { "name": "state-fast", "value": "160ms–180ms", "purpose": "Hover y cambios de borde o fondo." },
+      { "name": "page-enter", "value": "450ms", "purpose": "Entrada vertical y desvanecida de cada hoja." },
+      { "name": "reduced-motion", "value": ".01ms, 1 iteration", "purpose": "Neutraliza animaciones y transiciones cuando el sistema solicita movimiento reducido." }
+    ],
+    "breakpoints": [
+      { "name": "reader-compact", "value": "900px" },
+      { "name": "reader-mobile", "value": "620px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "action-primary",
+      "description": "Acción pedagógica principal, rectangular y cálida.",
+      "html": "<button class=\"ds-action\">COMENZAR <span aria-hidden=\"true\">→</span></button>",
+      "css": ".ds-action { min-height:44px; padding:14px 18px; border:0; display:inline-flex; align-items:center; gap:18px; color:#fff; background:var(--orange-ink,#a93a18); font:700 1rem 'Barlow',sans-serif; cursor:pointer; transition:transform 180ms cubic-bezier(.16,1,.3,1),box-shadow 180ms cubic-bezier(.16,1,.3,1); } .ds-action:hover { transform:translateY(-2px); box-shadow:0 10px 22px rgba(169,64,30,.24); } .ds-action:focus-visible { outline:3px solid var(--orange,#e75d2f); outline-offset:4px; } .ds-action:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Dark Action",
+      "kind": "button",
+      "refersTo": "action-dark",
+      "description": "Acción sobre campos cromáticos intensos o laboratorios de pausa.",
+      "html": "<button class=\"ds-action-dark\">INICIAR 5 SEGUNDOS</button>",
+      "css": ".ds-action-dark { min-height:44px; padding:14px 18px; border:0; color:#fff; background:var(--ink,#102f4d); font:700 1rem 'Barlow',sans-serif; cursor:pointer; transition:transform 180ms cubic-bezier(.16,1,.3,1),box-shadow 180ms cubic-bezier(.16,1,.3,1); } .ds-action-dark:hover { transform:translateY(-2px); box-shadow:0 10px 22px rgba(20,48,70,.2); } .ds-action-dark:focus-visible { outline:3px solid var(--orange,#e75d2f); outline-offset:4px; } .ds-action-dark:disabled { color:#91a4b4; background:#dce3e6; cursor:not-allowed; transform:none; box-shadow:none; }"
+    },
+    {
+      "name": "Reader Index Item",
+      "kind": "nav",
+      "refersTo": "index-current",
+      "description": "Entrada activa del índice editorial lateral.",
+      "html": "<button class=\"ds-index\" aria-current=\"page\"><span>03</span> El tiempo</button>",
+      "css": ".ds-index { position:relative; width:220px; min-height:44px; padding:11px 12px; border:0; display:grid; grid-template-columns:30px 1fr; gap:8px; align-items:center; color:#fff; background:#1a4262; text-align:left; font:400 1rem 'Atkinson Hyperlegible',sans-serif; cursor:pointer; } .ds-index::before { content:''; position:absolute; left:-30px; width:4px; height:100%; background:#ffc928; } .ds-index span { font:700 .68rem 'Barlow',sans-serif; letter-spacing:.08em; opacity:.65; } .ds-index:hover { color:#fff; background:#1a4262; } .ds-index:focus-visible { outline:3px solid #e75d2f; outline-offset:4px; }"
+    },
+    {
+      "name": "Perspective Tab",
+      "kind": "button",
+      "refersTo": "tab-selected",
+      "description": "Selector de lectura activo con énfasis amarillo.",
+      "html": "<button class=\"ds-tab\" aria-pressed=\"true\">Participar es acción</button>",
+      "css": ".ds-tab { min-height:44px; padding:12px 20px; border:0; color:#102f4d; background:#ffc928; font:700 1rem 'Atkinson Hyperlegible',sans-serif; text-align:left; cursor:pointer; } .ds-tab:hover { filter:brightness(.97); } .ds-tab:focus-visible { outline:3px solid #e75d2f; outline-offset:4px; } .ds-tab[aria-pressed='false'] { color:#35536b; background:transparent; font-weight:400; }"
+    },
+    {
+      "name": "Technique Selector",
+      "kind": "button",
+      "refersTo": "technique-selected",
+      "description": "Movimiento seleccionado de la tríada pedagógica.",
+      "html": "<button class=\"ds-technique\" aria-pressed=\"true\"><b>1</b><span>Tiempo de espera<small>pausa</small></span></button>",
+      "css": ".ds-technique { min-height:112px; padding:18px; border:1px solid #102f4d; display:grid; grid-template-columns:32px 1fr; gap:10px; align-items:center; color:#fff; background:#102f4d; font:700 1rem 'Barlow',sans-serif; text-align:left; cursor:pointer; } .ds-technique b { color:#ffc928; font-size:1.8rem; } .ds-technique small { display:block; margin-top:4px; color:#c7d9e5; font:400 .8rem 'Atkinson Hyperlegible',sans-serif; } .ds-technique:hover { background:#1a4262; } .ds-technique:focus-visible { outline:3px solid #e75d2f; outline-offset:4px; }"
+    },
+    {
+      "name": "Decision Option",
+      "kind": "button",
+      "refersTo": "decision-default",
+      "description": "Respuesta de caso con marcador circular y estados formativos.",
+      "html": "<button class=\"ds-decision\" aria-pressed=\"false\"><span>A</span> Asignar cinco segundos de silencio.</button>",
+      "css": ".ds-decision { width:100%; min-height:44px; padding:16px; border:1px solid #cbd7dc; display:grid; grid-template-columns:32px 1fr; gap:12px; align-items:center; color:#102f4d; background:#fff; font:400 1rem 'Atkinson Hyperlegible',sans-serif; text-align:left; cursor:pointer; transition:border-color 160ms cubic-bezier(.16,1,.3,1),background 160ms cubic-bezier(.16,1,.3,1); } .ds-decision span { width:28px; height:28px; display:grid; place-items:center; border-radius:50%; color:#fff; background:#147fa3; font:700 1rem 'Barlow',sans-serif; } .ds-decision:hover { border-color:#102f4d; } .ds-decision:focus-visible { outline:3px solid #e75d2f; outline-offset:4px; } .ds-decision[data-result='correct'] { border-color:#14745a; background:#e8f5ef; } .ds-decision[data-result='incorrect'] { border-color:#c94c36; background:#fff0eb; }"
+    },
+    {
+      "name": "Pause Beat",
+      "kind": "custom",
+      "refersTo": "pause-beat",
+      "description": "Pulso circular que materializa cinco segundos de pensamiento.",
+      "html": "<button class=\"ds-beat\" aria-label=\"Experimentar una pausa de cinco segundos\">5″</button>",
+      "css": ".ds-beat { width:96px; height:96px; border:0; display:grid; place-items:center; border-radius:50%; color:#fff; background:#a93a18; font:800 2.4rem 'Barlow',sans-serif; box-shadow:0 14px 28px rgba(169,58,24,.24); cursor:pointer; } .ds-beat:hover { transform:scale(1.03); } .ds-beat:focus-visible { outline:3px solid #e75d2f; outline-offset:4px; } .ds-beat:active { transform:scale(.96); } .ds-beat:disabled { opacity:1; cursor:wait; }"
+    },
+    {
+      "name": "Document Sheet",
+      "kind": "card",
+      "description": "Superficie única que contiene cada momento de lectura.",
+      "html": "<article class=\"ds-sheet\"><span>//</span><h2>Participar es tomar parte</h2><p>Antes de elegir una técnica, afinemos el significado.</p></article>",
+      "css": ".ds-sheet { width:min(100%,1020px); min-height:360px; padding:42px; color:#102f4d; background:#fcfdfb; box-shadow:0 18px 48px rgba(20,48,70,.15); font:400 1rem/1.55 'Atkinson Hyperlegible',sans-serif; } .ds-sheet span { color:#e75d2f; font:800 2.4rem/1 'Barlow',sans-serif; } .ds-sheet h2 { max-width:720px; margin:18px 0 0; font:700 clamp(2.35rem,5vw,4.4rem)/.92 'Barlow',sans-serif; letter-spacing:-.04em; } .ds-sheet p { color:#35536b; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Partitura de facilitación",
+    "overview": "El sistema convierte una lectura pedagógica en una partitura de pausas, voces y retornos. Una hoja de papel blanco frío flota sobre un lienzo gris azulado; tinta azul profunda, reglas finas, marcas editoriales y acentos rítmicos ordenan la experiencia sin parecer una colección de tarjetas.\n\nLa composición es serena y documental, pero no pasiva: los cambios de voz, la pausa de cinco segundos y las decisiones de aula hacen visible el esfuerzo cognitivo. La identidad institucional aparece en el logotipo y en una paleta contenida de azul oscuro, naranja y amarillo.",
+    "keyCharacteristics": [
+      "Hoja paginada central con índice lateral y progreso persistente.",
+      "Geometría editorial recta, atravesada por círculos de pulso y secuencia.",
+      "Titulares condensados y expresivos; lectura corporal altamente legible.",
+      "Interacciones locales breves con estado visible y retroalimentación inmediata."
+    ],
+    "rules": [
+      { "name": "The Pulse Rule", "body": "Amarillo y naranja indican ritmo, dirección o atención; no funcionan como relleno decorativo general.", "section": "colors" },
+      { "name": "The Gentle Error Rule", "body": "El error siempre combina borde rojo y lavado cálido, manteniendo texto en tinta profunda y lenguaje de revisión.", "section": "colors" },
+      { "name": "The Two-Voice Rule", "body": "Barlow dirige y marca el compás; Atkinson Hyperlegible explica. No intercambiar sus funciones sin una razón semántica.", "section": "typography" },
+      { "name": "The One-Sheet Rule", "body": "Cada momento ocupa una sola hoja visual y conserva navegación y progreso fuera de su contenido.", "section": "layout" },
+      { "name": "The Paper-First Rule", "body": "Las superficies permanecen planas dentro de la hoja; no añadir sombras a cada bloque de contenido.", "section": "elevation" },
+      { "name": "The Meaningful Circle Rule", "body": "Un círculo siempre representa pulso, orden, opción o confirmación; nunca es un adorno vacío.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do conservar la hoja fría, la tinta profunda y las reglas finas como estructura dominante.",
+      "Do usar marcas musicales y editoriales para explicar secuencia, pausa, voz o retorno.",
+      "Do mantener foco visible, regiones vivas, etiquetas accesibles y controles de al menos 44px.",
+      "Do apilar composiciones a 620px y ofrecer una navegación equivalente antes de ocultar el índice lateral."
+    ],
+    "donts": [
+      "Don't convertir el recurso en una cuadrícula de tarjetas intercambiables.",
+      "Don't redondear paneles y controles rectangulares; los círculos tienen significado reservado.",
+      "Don't usar naranja o amarillo como decoración sin una función de ritmo o dirección.",
+      "Don't depender solo del color para explicar acierto, error, selección o progreso."
+    ]
+  }
+}
