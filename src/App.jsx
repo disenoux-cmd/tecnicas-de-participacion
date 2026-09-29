@@ -260,7 +260,7 @@ function ClosingPage({ restart }) {
         <article><span>Antes pensaba</span><p>que un aula participativa era aquella en la que…</p></article>
         <article><span>Ahora sé</span><p>que el Tiempo de Espera, la Llamada en Frío y las Preguntas Boomerang cuidan el tiempo efectivo porque…</p></article>
       </div>
-      <aside className="moodle-note"><div className="check-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m7 16 6 6L26 9" /></svg></div><div><h2>Haz visible tu pensamiento</h2><p>Abre tu Bitácora de Metacognición Digital en Moodle y completa allí la rutina. Ese será tu registro personal de aprendizaje.</p></div></aside>
+      <aside className="moodle-note"><div className="check-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m7 16 6 6L26 9" /></svg></div><div><h2>Lleva lo aprendido al aula</h2><p>Reflexiona a partir de la rutina y elige una de estas técnicas para aplicarla en tu próxima clase. Define en qué momento la usarás y qué cambio esperas observar en la participación del grupo.</p></div></aside>
       <button className="text-button" onClick={restart}>Volver al inicio <span aria-hidden="true">↺</span></button>
     </div>
   )

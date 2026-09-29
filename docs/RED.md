@@ -106,7 +106,7 @@
 * **Herramienta de Apoyo \- Los Palitos de Helado \[247, 248\]:**  
   *Escribe el nombre de cada estudiante en un palito de helado \[248\]. Al formular la pregunta, saca un palito de manera aleatoria. Esto visibiliza que el proceso es justo, transparente e imparcial \[177, 248\].*  
 * **Ejemplo Contextualizado (Inglés):**  
-  *"Let's practice\! \[294\] Vamos a describir a nuestro personaje favorito usando preposiciones de lugar \[88, 295\]. Escriban la frase corta en su bitácora \[330\]. Tienen 10 segundos. (Tiempo de espera) \[264\]. Muy bien, saquemos un palito de la palabra \[248\]... Sofía, cuéntanos en inglés, ¿dónde ubicaste el libro?"* \[88, 248\].
+  *"Let's practice\! \[294\] Vamos a describir a nuestro personaje favorito usando preposiciones de lugar \[88, 295\]. Piensen en una frase corta para compartirla con el grupo. Tienen 10 segundos. (Tiempo de espera) \[264\]. Muy bien, saquemos un palito de la palabra \[248\]... Sofía, cuéntanos en inglés, ¿dónde ubicaste el libro?"* \[88, 248\].
 
 #### 🔄 ENGRANAJE 3: Preguntas Boomerang / No Hay Salida (No-Opt-Out) \[24, 252, 265\]
 
@@ -145,7 +145,7 @@
 
 * **Diseño Visual:** Un lienzo con notas adhesivas digitales interactivas en tonos naranja, azul y amarillo de la identidad de Enseña por Colombia.  
 * **Instrucción Metacognitiva:**  
-  *"¡Felicidades, Eco\! Has completado el viaje por las técnicas para activar la participación efectiva en tu aula. Ahora, conectemos este aprendizaje con tu propia práctica pedagógica. Abre tu **Bitácora de Metacognición Digital** en Moodle y realiza la siguiente rutina de pensamiento de la Universidad de Harvard \[26\]:"*
+  *"¡Felicidades, Eco\! Has completado el viaje por las técnicas para activar la participación efectiva en tu aula. Ahora, reflexiona sobre lo aprendido con la siguiente rutina de pensamiento y elige una técnica para aplicarla en tu próxima clase \[26\]:"*
 
 >   
 > **Rutina: "Antes pensaba... Ahora sé"** \[222\]  
@@ -153,6 +153,7 @@
 
 > 1. **Antes pensaba** que un aula participativa era aquella en la que...  
 > 2. **Ahora sé** que implementar el Tiempo de Espera, la Llamada en Frío y las Preguntas Boomerang me permite cuidar y optimizar el tiempo efectivo de aprendizaje porque... \[27\]
+> 3. **En mi próxima clase aplicaré** la técnica... durante... para observar cómo cambia la participación del grupo.
 
 ---
 
@@ -161,4 +162,3 @@
 1. **Interactividad Dinámica:** Diseñar botones parpadeantes (Hotspots) para representar los tres engranajes de la *Pantalla 4*, asegurando que el Eco explore el contenido de forma autónoma a su propio ritmo de aprendizaje \[100\].  
 2. **Uso de la Paleta de Colores Institucional:** Aplicar azul oscuro para títulos (jerarquía visual), gris carbón para el cuerpo del texto para asegurar alta legibilidad y contraste, y naranja para elementos interactivos y alertas de tiempo \[85, 241, 242\].  
 3. **Configuración de Transiciones en Moodle:** Asegurar que los pop-ups de simulación en la *Pantalla 5* tengan una retroalimentación inmediata asertiva, para que el recurso funcione de forma 100% autodirigida sin necesidad de un tutor en línea \[26\].
-
